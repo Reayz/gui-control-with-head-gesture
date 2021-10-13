@@ -147,8 +147,6 @@ while True:
     
         
     cv2.imshow('Result', img)
-    #img_new = cv2.resize(img, (510, 510))
-    #cv2.imshow('new', img_new)
 
     # stop with Esc key
     if cv2.waitKey(10) == 27:
